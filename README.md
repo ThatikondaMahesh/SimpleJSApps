@@ -57,7 +57,7 @@ This 📁 contains a collection of simple & fun 📜 projects designed to explor
 ### ▶️ How to Run
 1. Clone the 📁:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ThatikondaMahesh/SimpleJSApps.git
    ```
 2. Navigate to the desired 📂.
 3. Open the `index.html` in your 🌐.
