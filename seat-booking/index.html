@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>Pick a Movie</h2>
+            <select id="movie">
+                <option value="10">Avengers: $10</option>
+                <option value="8">Joker: $8</option>
+                <option value="12">Spiderman: $12</option>
+                <option value="15">Black Panther: $15</option>
+            </select>
+
+            <h2>Available Seats</h2>
+            <div class="screen">Screen</div>
+            <div class="row">
+                <div class="seat" data-seat="A1"></div>
+                <div class="seat" data-seat="A2"></div>
+                <div class="seat" data-seat="A3"></div>
+                <div class="seat" data-seat="A4"></div>
+            </div>
+            <div class="row">
+                <div class="seat" data-seat="B1"></div>
+                <div class="seat" data-seat="B2"></div>
+                <div class="seat" data-seat="B3"></div>
+                <div class="seat" data-seat="B4"></div>
+            </div>
+            <div class="row">
+                <div class="seat" data-seat="C1"></div>
+                <div class="seat" data-seat="C2"></div>
+                <div class="seat" data-seat="C3"></div>
+                <div class="seat" data-seat="C4"></div>
+            </div>
+            <div class="row">
+                <div class="seat" data-seat="D1"></div>
+                <div class="seat" data-seat="D2"></div>
+                <div class="seat" data-seat="D3"></div>
+                <div class="seat" data-seat="D4"></div>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2>Booking Details</h2>
+            <p>Selected Seats: <span id="selected-seats">None</span></p>
+            <p>Total Price: <span id="total-price">$0</span></p>
+            <button id="clear">Clear Selection</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
